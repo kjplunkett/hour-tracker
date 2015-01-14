@@ -10,7 +10,9 @@
 - Node (npm init, http-server)
 - Grunt (plugins: Sass, Watch)
 - Sass (SCSS)
-- Git
+- Git 
 - Backbone (Model, View, Collection, jQuery, Underscore)
 - Polymer Elements (Core, Paper)
 - Bower Package Manager
+
+fun stuff :) 
