@@ -15,4 +15,9 @@
 - Polymer Elements (Core, Paper)
 - Bower Package Manager
 
+## Next Step:
+- Make it actually work by plugging in the back end...
+- Save all the hour info in a database
+- Give other users access to that info
+
 fun stuff :) 
