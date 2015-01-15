@@ -31,7 +31,7 @@ app.Day = Backbone.Model.extend ({
 		this.set("total",sum);
 		return sum;
 	},
-
+	
 	// 1. Connect to a button that submits hours to a new PayPeriod collection
 	// 2. Set completed to false and go to "completion" page
 	submit: function () {
