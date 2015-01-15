@@ -19,6 +19,6 @@
   "dependencies": {
     "backbone": "~1.1.2",
     "jquery": "~2.1.3",
-    "polymer": "Polymer/polymer#~0.5.2"
+    "polymer": "~0.5.2"
   }
 }
