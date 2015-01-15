@@ -8,11 +8,26 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
 	<!-- My Stylesheet, compiled from SCSS -->
 	<link rel="stylesheet" href="styles/style.css">
-	<!-- Import Polymer Elements -->
+	<!-- Import Polymer Elements *NOT WORKING* 
 	<link rel="import" href="elements/elements.html">
+	-->
 
 </head>
 <body>
+
+<!-- Main container for site content -->
+<div id="container">
+		
+</div>
+
+<!--My Underscore template for appView -->
+<script type="text/template" id="view-template1">
+	<div class="mainAppView">
+		<ul>
+			<li>#</li>
+		</ul>
+	</div>
+</script>	
 
 <!-- Backbone dependencies -->
 <script src="bower_components/underscore/underscore-min.js"></script>
@@ -23,5 +38,6 @@
 <!-- My JS --> 
 <script src="js/models/day.js"></script>
 <script src="js/collections/payPeriod.js"></script>
+<script src="js/views/appView.js"></script>
 </body>
 </html>
