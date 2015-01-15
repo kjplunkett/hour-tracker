@@ -1,6 +1,8 @@
 // Backbone Model - Day
 var app = app || {};
 
+"use strict";
+
 app.Day = Backbone.Model.extend ({
 
 	// Each day has a user, timestamp, clock in, and clock out

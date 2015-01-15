@@ -1,2 +1,44 @@
 // Sass styles for Hour Tracker
 /* Hour Tracker Styles */
+$box-dark: #666;
+$box-light: #ccc;
+
+// Standard styles for the containers
+@mixin boxes {
+	width: 50%;
+	height: 50em;
+	border: 1px dotted $box-dark;
+	h2{
+		text-decoration: underline;
+	}
+}
+
+.container-fluid {
+	margin-top: 1%;
+	height: 80%;
+	width: 80%;
+}
+/* Curvy input boxes ftw */
+input {
+	border-radius: 3px;
+	text-align: center;
+}
+
+#main-header {
+	width: 100%;
+	height: 20%;
+	border: 2px solid $box-light;
+	padding-bottom: 0.5%;
+}
+
+// Use the mixin we made above for the boxes
+#day-section {
+	@include boxes;
+}
+
+#total-section {
+	@include boxes;
+}
+
+
+

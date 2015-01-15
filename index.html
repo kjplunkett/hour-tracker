@@ -11,21 +11,37 @@
 	<!-- Import Polymer Elements *NOT WORKING* 
 	<link rel="import" href="elements/elements.html">
 	-->
-
 </head>
 <body>
-
 <!-- Main container for site content -->
-<div id="container">
-		
+<div class="container-fluid">
+	<!-- Main Header -->
+	<div class="row">
+		<div class="col-md-12 text-center" id="main-header">
+			<h1>Hour Tracker</h1>						
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 text-center" id="day-section">
+			<h2>Today</h2>
+			<table class="table table-hover">
+				<tr><th>Clock In Time</th><td><input type="time" value=09:00:00 id="timeIn"></td></tr>
+				<tr><th>Clock Out Time</th><td><input type="time" value=17:00:00 id="timeOut"></td></tr>
+			</table>
+			<button class="btn btn-success" id="submitButton">Submit</button>
+		</div>
+		<div class="col-md-6 text-center" id="total-section">
+			<h2>Total for this period</h2>
+			<!-- Put hours value in this h3-->
+			<div id="total-hours"></div>
+		</div>
+	</div>
 </div>
 
 <!--My Underscore template for appView -->
 <script type="text/template" id="view-template1">
-	<div class="mainAppView">
-		<ul>
-			<li>#</li>
-		</ul>
+	<div>
+		<h3>Some text</h3>
 	</div>
 </script>	
 

@@ -1,3 +1,32 @@
 /* Hour Tracker Styles */
+.container-fluid {
+  margin-top: 1%;
+  height: 80%;
+  width: 80%; }
+
+/* Curvy input boxes ftw */
+input {
+  border-radius: 3px;
+  text-align: center; }
+
+#main-header {
+  width: 100%;
+  height: 20%;
+  border: 2px solid #ccc;
+  padding-bottom: 0.5%; }
+
+#day-section {
+  width: 50%;
+  height: 50em;
+  border: 1px dotted #666; }
+  #day-section h2 {
+    text-decoration: underline; }
+
+#total-section {
+  width: 50%;
+  height: 50em;
+  border: 1px dotted #666; }
+  #total-section h2 {
+    text-decoration: underline; }
 
 /*# sourceMappingURL=style.css.map */
