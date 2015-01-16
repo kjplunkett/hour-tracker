@@ -13,27 +13,38 @@
 	-->
 </head>
 <body>
+
 <!-- Main container for site content -->
 <div class="container-fluid">
-	<!-- Main Header -->
-	<div class="row">
-		<div class="col-md-12 text-center" id="main-header">
-			<h1>Hour Tracker</h1>						
-		</div>
+	
+	<!-- Page Header -->
+	<div class="page-header text-center">
+		<h1>Hour Tracker</h1>
 	</div>
+	
+	<!-- Contents -->
 	<div class="row">
 		<div class="col-md-6 text-center" id="day-section">
+			<div class="jumbotron">
 			<h2>Today</h2>
-			<table class="table table-hover">
+			<table class="table">
 				<tr><th>Clock In Time</th><td><input type="time" value=09:00:00 id="timeIn"></td></tr>
 				<tr><th>Clock Out Time</th><td><input type="time" value=17:00:00 id="timeOut"></td></tr>
 			</table>
 			<button class="btn btn-success" id="submitButton">Submit</button>
+			</div>
 		</div>
 		<div class="col-md-6 text-center" id="total-section">
+			<div class="jumbotron">
 			<h2>Total for this period</h2>
-			<!-- Put hours value in this h3-->
+			<table class="table">
+				<tr><td>Value</td></tr>
+			</table>
+			<table class="tabe">
+			<!-- Put hours here-->
 			<div id="total-hours"></div>
+			
+			</div>
 		</div>
 	</div>
 </div>

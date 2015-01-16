@@ -3,15 +3,15 @@
 $box-dark: #666;
 $box-light: #ccc;
 
-// Standard styles for the containers
+/* Standard styles for the containers
 @mixin boxes {
 	width: 50%;
 	height: 50em;
-	border: 1px dotted $box-dark;
 	h2{
-		text-decoration: underline;
+		color: $box-dark;
 	}
 }
+*/
 
 .container-fluid {
 	margin-top: 1%;
@@ -20,18 +20,11 @@ $box-light: #ccc;
 }
 /* Curvy input boxes ftw */
 input {
-	border-radius: 3px;
+	border-radius: 5px;
 	text-align: center;
 }
 
-#main-header {
-	width: 100%;
-	height: 20%;
-	border: 2px solid $box-light;
-	padding-bottom: 0.5%;
-}
-
-// Use the mixin we made above for the boxes
+/* Use the mixin we made above for the boxes
 #day-section {
 	@include boxes;
 }
@@ -39,6 +32,4 @@ input {
 #total-section {
 	@include boxes;
 }
-
-
-
+*/

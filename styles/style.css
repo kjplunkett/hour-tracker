@@ -1,4 +1,13 @@
 /* Hour Tracker Styles */
+/* Standard styles for the containers
+@mixin boxes {
+	width: 50%;
+	height: 50em;
+	h2{
+		color: $box-dark;
+	}
+}
+*/
 .container-fluid {
   margin-top: 1%;
   height: 80%;
@@ -6,27 +15,17 @@
 
 /* Curvy input boxes ftw */
 input {
-  border-radius: 3px;
+  border-radius: 5px;
   text-align: center; }
 
-#main-header {
-  width: 100%;
-  height: 20%;
-  border: 2px solid #ccc;
-  padding-bottom: 0.5%; }
-
+/* Use the mixin we made above for the boxes
 #day-section {
-  width: 50%;
-  height: 50em;
-  border: 1px dotted #666; }
-  #day-section h2 {
-    text-decoration: underline; }
+	@include boxes;
+}
 
 #total-section {
-  width: 50%;
-  height: 50em;
-  border: 1px dotted #666; }
-  #total-section h2 {
-    text-decoration: underline; }
+	@include boxes;
+}
+*/
 
 /*# sourceMappingURL=style.css.map */
