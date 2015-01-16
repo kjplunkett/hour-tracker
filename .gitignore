@@ -38,4 +38,4 @@ Thumbs.db
 
 # My custom ignore files #
 ##########################
-*.sass-cache/\*
+.sass-cache/
